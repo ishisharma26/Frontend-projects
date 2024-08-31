@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 0.5px solid black; */
+}
+body{
+  background-color: #232323;
+}
+.df {
+  display: flex;
+}
+.w50 {
+  width: 50%;
+}
+.fdc {
+  flex-direction: column;
+}
+.aic {
+  align-items: center;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.jc{
+  justify-content: center;
+}
+.bgn{
+  background: none;
+}
+.br5{
+  border-radius: 5px;
+}
+.topbox {
+  background: url("../netoflix/images/download.jpg") no-repeat center/cover;
+    height: 695px;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 150px;
+}
+.logo {
+  width: 200px;
+}
+.line1 {
+  width: 80%;
+  height: 100px;
+  margin: 10px auto;
+  justify-content: space-between;
+}
+.sign {
+  gap: 20px;
+}
+.buttop {
+  border: 1px solid rgb(202, 197, 197);
+  height: 30px;
+  color: white;
+}
+.english {
+  height: 30px;
+  background: none;
+  width: 100px;
+}
+.signin {
+  background-color: #e50914;
+  height: 30px;
+  width: 70px;
+}
+.line2{
+    gap: 20px;
+    color: white;
+}
+.pline1{
+  font-size: 40px;
+  font-family: 'Russo One', sans-serif;
+}
+.pline2{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.inpline2{
+  border: 1px solid rgb(202, 197, 197);
+  padding: 10px;
+  height: 50px;
+  width: 410px;
+}
+.line2a{
+  height: 50px;
+  border: 1px solid rgb(202, 197, 197);
+  width: 75%;
+  justify-content: space-between;
+  gap: 10px;
+}
+.butline2a{
+  width: 170px;
+  height: 50px;
+  color: white  ;
+  border: none;
+  background-color: #e50914;
+}
+.enjoy{
+    margin: 10px 0px;
+    height: 400px;
+    background-color: black;
+  }
+  .enjoy1{
+    align-items: start;
+  gap: 10px;
+  color: white;
+  margin-left: 90px;
+}
+.enjoy2{
+  position: relative;
+}
+.tv{
+  z-index: 1;
+  position: absolute;
+  height: 290px;
+  top: -120px;
+  width: 490px;
+}
+.video{
+  position: absolute;
+  top: -120px;
+  height: 200px;
+  width: 260px;
+  z-index: 0;
+}
+.download{
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 600px;
+}
+.box1{
+  width: 40%;
+}
+.box2{
+  margin-left: 90px;
+}
+.look{
+    margin: 10px 0px;
+    height: 800px;
+    background-color: black;
+  }
+.macc{
+  height: 500px;
+  width: 780px;
+}
+.tvnew{
+  position: absolute;
+  top: -150px;
+  left: -150px;
+}
+.faq{
+  color: white;
+  margin: 10px;
+  background-color: black;
+  gap: 20px;
+}
+.card{
+  height: 70px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #2d2d2d;
+}
+details{
+    height: 50px;
+    padding: 10px;
+    width: 100%;
+}
+details > summary {
+  list-style: none;
+  }
+details > summary::-webkit-details-marker {
+  display: none;
+}
+.plin2{
+  gap: 10px;
+  margin-bottom: 70px;
+}
+#footer{
+  background-color: black;
+  color: #b3b3b3;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+.footerbox{
+  width: 80%;
+  margin: 70px auto;
+  gap: 10px;
+}
+.fmainbox{
+    width: 100%;
+}
+.fbox{
+    width: 25%;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin: 20px 0px;
+}
+a{
+    color: #b3b3b3;
+}
+
+/* responsive css */
+@media (max-width: 576px) 
+{
+    .topbox{
+        width: 100%;
+    }
+    .pline1{
+        font-size: 25px;
+    }
+    .pline2{
+        font-size: 15px;
+    }
+    .enjoy{
+        width: 100%;
+        flex-wrap: wrap;
+        height: 800px;
+    }
+    .tvres{
+        position: absolute;
+        top: -250px;
+        right: -230px;
+    }
+    .videores{
+        position: absolute;
+        top: -250px;
+        right: 0px;
+    }
+    .download{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .look{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .faq{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .ladkinew{
+        height: 300px;
+        width: 560px;
+    }
+    .macc{
+        position: absolute;
+        top: -140px;
+        right: -320px;
+        width: 760px;
+    }
+    .videonew{
+        position: absolute;
+        top: -250px;
+        right: -20px;
+        height: 100px;
+    }
+    .box1{
+        width: 500px;
+        margin-left: 30px;
+        height: 400px;
+    }
+    .box2{
+        margin: -30px 40px;
+    }
+
+}
