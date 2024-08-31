@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 0.5px solid black; */
+}
+.aic{
+    align-items: center;
+}
+.df{
+    display: flex;
+}
+.fdc{
+    flex-direction: column;
+}
+.sb{
+    justify-content: space-between;
+}
+.w50{
+    width: 50%;
+}
+.ffm{
+    font-family: 'Montserrat', sans-serif;
+}
+.ffg{
+    font-family: 'Fredericka the Great', serif;
+}
+.backkimgset{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.mainbox{
+    background-image: url('../italica/images/yellowbackg.png');
+}
+#header{
+    margin-top: -0px;
+}
+.box1{
+    height: 100px;
+    padding: 20px;
+}
+.f4y{
+    width: 170px;
+}
+.iphone{
+    width: 170px;
+}
+.box2{
+    justify-content: end;
+    padding: 0px 20px;
+}
+.line1{
+    gap: 120px;
+    height: 50px;
+}
+.box3a{
+    gap: 20px;
+}
+.h1{
+    margin-top: 70px;
+    height: 45px;
+    width: 250px;
+}
+.h2{
+    font-size: 60px;
+}
+.h4{
+    gap: 10px;
+}
+.h4a{
+    justify-content: center;
+}
+.h5{
+    font-size: 11px;
+}
+.h6{
+    font-size: 40px;
+}
+.ordernow{
+    background: none;
+    width: 150px;
+    height: 40px;
+    border: 0.5px solid black;
+}
+.plate{
+    height: 100%;
+    width: 80%;
+}
+.enjoy{
+    margin: 50px 0px;
+    gap: 20px;
+    position: relative;
+}
+.en2{
+    width: 70%;
+    text-align: center;
+}
+.brrect{
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+    bottom: 275px;
+}
+.brrec{
+    width: 100%;
+    height: 100%;
+}
+.cardbox{
+    gap: 20px;
+    z-index: 1;
+}
+.card{
+    gap: 20px;
+}
+.ccard{
+    width: 75%;
+    text-align: center;
+    font-family: sans-serif;
+}
+.acard{
+    width: 80%;
+    height: 100%;
+}
+.butcard{
+    height: 40px;
+    justify-content: center;
+    width: 120px;
+    background-color: #FFE100;
+}
+button{
+    border: none;
+    background: none;
+}
+.backimg{
+    width: 100%;
+}
+.fimg{
+    width: 45%;
+    height: 250px;
+    z-index: 0;
+}
+.mimg{
+    z-index: 2;
+    height: 400px;
+    width: 60%;
+}
+.imagebox{
+    margin: 60px;
+    justify-content: space-between;
+    height: 400px;
+    color: white;
+}
+.boxa{
+    background-image: url('../italica/images/imgb1.png');
+    width: 55%;
+    padding: 30px;
+}
+.boxb{
+    width: 40%;
+    gap: 20px;
+}
+.boxb1{
+    padding: 30px;
+    background-image: url('../italica/images/imgb22.png');
+}
+.boxb2{
+    background-image: url('../italica/images/imgb3.png');
+    padding: 30px;
+}
+.new3{
+    font-size: 30px;
+}
+.form{
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 20px;
+}
+.form1{
+    gap: 20px;
+}
+.form2{
+    gap: 20px;
+}
+.butnew{
+    width: 100%;
+}
+input{
+    height: 45px;
+    border: 1px solid grey;
+    padding: 0px 10px;
+}
+.footerbox{
+    margin-top: 50px;
+    background-image: url('../italica/images/footerimg.png');
+    color: whitesmoke;
+}
+.leftbox{
+    padding: 60px;
+}
+.rightbox{
+    padding: 60px;
+    gap: 10px;
+    margin-top: 75px;
+}
+.botcard{
+    font-family: sans-serif;
+    font-size: 15px;
+    width: 60%;
+}
+.posf4y{
+    margin-bottom: 30px;
+}
+.posf4y2{
+    margin-bottom: 90px;
+}
+.icon{
+    height: 15px;
+    width: 18px;
+}
+.div3{
+    margin-top: 90px;
+    justify-content: end;
+    gap: 10px;
+}
+
+@media (max-width: 576px) 
+{
+.mainbox{
+    margin-top: -10px;
+    width: 100%;
+}
+.line1{
+    width: 100%;
+    gap: 20px;
+    justify-content: end;
+}
+.box3{
+    flex-direction: column-reverse;
+    width: 100%;
+    align-items: center;
+}
+.h2{
+    font-size: 38px;
+}
+.h3{
+    font-size: 13px;
+}
+.enjoy{
+    width: 100%;
+}
+.bcard{
+    font-size: 12px;
+}
+.discover{
+    width: 100%;
+}
+.backimg{
+    flex-direction: column;
+}
+.fimg{
+    width: 200px;
+    height: 150px;
+}
+.mimg{
+    height: 200px;
+    width: 300px;
+}
+.imagebox{
+    width: 100%;
+    margin-left: 20px;
+    flex-direction: column;
+}
+.boxa{
+    width: 90%;
+    margin: 0;
+}
+.boxb{
+    flex-direction: row;
+}
+.booking{
+    width: 100%;
+}
+.form{
+    width: 90%;
+    gap: 30px;
+}
+#footer{
+    width: 100%;
+}
+.botcard{
+    font-size: 10px;
+    width: 100%;
+}
+.brrect{
+    position: absolute;
+    bottom: 240px;
+}
+
+}
